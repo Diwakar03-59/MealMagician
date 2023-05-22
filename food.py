@@ -48,7 +48,7 @@ def get_food_response(image_path):
     print(dish)
     print(result['segmentation_results'][0]['recognition_results'][0]['prob'])
 
-    openai.api_key = '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'
+    openai.api_key = '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'
     messages = [{"role": "system", "content": "You are an intelligent assistant."}]
 
     message = f'Please write a recipe for {dish}'
