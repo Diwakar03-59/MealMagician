@@ -14,7 +14,7 @@ class UploadFileForm(FlaskForm):
     file = FileField("File", validators=[InputRequired()])
     submit = SubmitField("Generate Recipe")
 
-@app.route('/', methods=['GET', 'POST'])
+
 @app.route('/home', methods=['GET', 'POST'])
 def home():
     form = UploadFileForm()
@@ -27,16 +27,14 @@ def home():
         return render_template('index.html', form=form, response=response)
     return render_template('index.html', form=form)
 
+@app.route('/', methods=['GET', 'POST'])
 @app.route('/about', methods=['GET', 'POST'])
 def about():
     return render_template('blog.html')
-
 
 @app.route('/working', methods=['GET', 'POST'])
 def working():
     return render_template('working.html')
 
-
 if __name__ == '__main__':
-    app.run(port = 8000, debug=True)
-
+    app.run(port = 8001, debug=True)

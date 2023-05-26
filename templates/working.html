@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Macondo&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/mustafadalga/farm-landing-page/master/assets/img/logo.svg">
+    <link rel="icon" type="image/png" href="../static/assets/food.svg">
     <link rel="stylesheet" href="{{ url_for('static', filename='public/test.css') }} ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
@@ -29,7 +29,7 @@
                     <div class="header__signup">
                         <ul class="header__menu">
                             <li class="menu__item">
-                                <a href="/home" class="menu__link active">Home</a>
+                                <a href="/home" class="menu__link">Try It</a>
                             </li>
     
                             <li class="menu__item">
@@ -37,7 +37,7 @@
                             </li>
 
                             <li class="menu__item">
-                                <a href="#" class="menu__link">How It Works</a> 
+                                <a href="#" class="menu__link active">How It Works</a> 
                             </li>
                         </ul>
                     </div>
@@ -68,7 +68,7 @@
 
         <section class="opportunities">
             <div class="opportunities__img">
-                <img src="" alt="">
+                {# <img src="" alt=""> #}
             </div>
             <div class="opportunities__content w-105">
                 <div class="opportunities__head">
@@ -108,10 +108,14 @@
             <div class="invest__content">
                 <div class="invest__head">
                     <!-- <h2 class="invest__title">About this food Image Recognition</h2> -->
-                    <h2 style="font-size: 25px; font-weight: 600;">About this <span style="color:rgb(172, 23, 50);"> food Image Recognition</span></h2>
+                    <h2 style="font-size: 25px; font-weight: 600;">About this <span style="color:rgb(172, 23, 50);">Recipe Generator</span></h2>
                     <p class="invest__description" style="line-height: 3.5rem;">
-                        Food image recognition is a technology that uses computer vision and machine learning to identify and analyze food images.
-                        The process involves taking a photo of a dish and using image recognition software to identify the different components and ingredients in the food.
+                        Our web app combines artificial intelligence and API technology to revolutionize recipe discovery. 
+                        By uploading an image, our AI algorithms identify the dish's ingredients and components, providing a complete recipe. 
+                        We integrate with leading recipe databases and APIs to retrieve relevant recipes with step-by-step instructions and alternative ingredient options. 
+                        Our dedicated team ensures a seamless user experience, with optimized AI models and backend infrastructure. Our app celebrates the universal love for food, offering a convenient way to explore new recipes, embark on culinary adventures, and create unforgettable dining experiences. 
+                        Join us as the art of cooking meets AI and API technology, guiding you to new flavors and inspiring your culinary creativity. 
+                        <strong>Bon appétit!</strong>
                     </p>
                 </div>
                 <div class="invest__body">
@@ -120,28 +124,27 @@
                             <h5 class="invest__item__subtitle"> AI technology Today</h5>
                         </div>
                         <div class="invest__item__body">
-                            <h4 class="invest__item__title">Read The Full Blog </h4>
+                            <h4 class="invest__item__title">Related Research Works </h4>
                             <p class="invest__item_description">
-                                 That will be ready for harvest in 3-18 months for use in 
-                            </p>
+                                These research works have contributed valuable insights and techniques to the development of our project                            </p>
                         </div>
                         <div class="invest__item__footer">
-                            <a href="#" class="btn btn__invest">Browse </a>
+                            <a href="https://www.hindawi.com/journals/cin/2021/1268453/" class="btn btn__invest">Read More </a>
                         </div>
                     </div>
                     <div class="invest__item">
                         <div class="invest__item__head">
-                            <h5 class="invest__item__subtitle">Recognition Of Food</h5>
+                            <h5 class="invest__item__subtitle">Code available for use on GitHub</h5>
                         </div>
                         <div class="invest__item__body">
-                            <h4 class="invest__item__title">Long terms investment
+                            <h4 class="invest__item__title">GitHub Repository link.
                             </h4>
                             <p class="invest__item_description">
-                                Consider farms that have long term investment program.
+                                Please feel free to visit our GitHub repository to explore and interact with our project..
                             </p>
                         </div>
                         <div class="invest__item__footer">
-                            <a href="#" class="btn btn__invest">Learn More</a>
+                            <a href="https://github.com/Diwakar03-59/Meal-Magician" class="btn btn__invest">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -173,19 +176,19 @@
                         </p>
                     </div>
                     <div class="works__step__content">
-                        <h3 class="works__step_title">Recipe generation</h3>
+                        <h3 class="works__step_title">Image Recognition</h3>
                         <p class="works__step_description">
                             The system uses a recipe generation algorithm that takes into account the ingredients, their quantities, and their nutritional information to generate a recipe that is similar to the input food dish. This is typically done using machine learning techniques such as natural language processing (NLP) and neural networks.
                         </p>
                     </div>
                     <div class="works__step__content">
-                        <h3 class="works__step_title">Recipe outpu</h3>
+                        <h3 class="works__step_title">Recipe generation</h3>
                         <p class="works__step_description">
                             The system outputs the generated recipe, which includes the list of ingredients, quantities, and instructions for preparing the dish.
                         </p>
                     </div>
                     <div class="works__step__content">
-                        <h3 class="works__step_title"> Overall</h3>
+                        <h3 class="works__step_title"> Outcome</h3>
                         <p class="works__step_description">
                             Overall, the recipe generator from food image is a complex system that involves multiple steps and techniques from the fields of computer vision, machine learning, and natural language processing. It has the potential to revolutionize the way people discover and cook new recipes, and can be a valuable tool for both home cooks and professional chefs.
                         </p>
@@ -207,11 +210,11 @@
                         <div class="testimonial">
                             <div class="testimonial__profile">
                                 <div class="testimonial__img">
-                                    <!-- <img src="https://raw.githubusercontent.com/mustafadalga/farm-landing-page/master/assets/img/testimonials/1.png" alt="Testimonial"> -->
-                                    <!-- <img src="" alt="Testimonial"> -->
+                                    {# <img src="https://raw.githubusercontent.com/mustafadalga/farm-landing-page/master/assets/img/testimonials/1.png" alt="Testimonial"> #}
+                                    <img src="../static/assets/IMG_20230215_100806.jpg" alt="Testimonial" height="75" width="75" style="border-radius: 40px;">
                                 </div>
                                 <div class="testimonial__info">
-                                    <h4 class="testimonial__name"> Piju Singh</h4>
+                                    <h4 class="testimonial__name"> Pijush Singh</h4>
                                     <h4 class="testimonial__title">FrontEnd Desinger</h4>
                                 </div>
                             </div>
@@ -222,10 +225,10 @@
                         <div class="testimonial">
                             <div class="testimonial__profile">
                                 <div class="testimonial__img">
-                                    <!-- <img src="https://raw.githubusercontent.com/mustafadalga/farm-landing-page/master/assets/img/testimonials/2.png" alt="Testimonial"> -->
+                                    <img src="../static/assets/IMG_20230215_100806.jpg" alt="Testimonial" height="80" width="80" style="border-radius: 40px;">
                                 </div>
                                 <div class="testimonial__info">
-                                    <h4 class="testimonial__name"> Diwakar Saha</h4>
+                                    <h4 class="testimonial__name"> Diwakar Sah</h4>
                                     <h4 class="testimonial__title">BackEnd & ML</h4>
                                 </div>
                             </div>
@@ -236,7 +239,7 @@
                         <div class="testimonial">
                             <div class="testimonial__profile">
                                 <div class="testimonial__img">
-                                    <!-- <img src="https://raw.githubusercontent.com/mustafadalga/farm-landing-page/master/assets/img/testimonials/3.png" alt="Testimonial"> -->
+                                    <img src="../static/assets/WhatsApp Image 2023-05-23 at 5.45.40 PM.jpeg" alt="Testimonial" height="85" width="80" style="border-radius: 35px;">
                                 </div>
                                 <div class="testimonial__info">
                                     <h4 class="testimonial__name"> Saif Alam</h4>
@@ -264,7 +267,7 @@
                         <div class="testimonial">
                             <div class="testimonial__profile">
                                 <div class="testimonial__img">
-                                    <!-- <img src="https://raw.githubusercontent.com/mustafadalga/farm-landing-page/master/assets/img/testimonials/1.png" alt="Testimonial"> -->
+                                    <img src="../static/assets/maroof.jpeg" alt="Testimonial" height="85" width="80" style="border-radius: 35px;"> 
                                 </div>
                                 <div class="testimonial__info">
                                     <h4 class="testimonial__name"> Maroof Alam</h4>
@@ -292,7 +295,7 @@
 
         <section class="farm-invest w-105">
             <h2 class="farm-invest__title">Make it easier with a <span> Single Scan</span> with <span>AI</span></h2>
-            <a href="#" class="btn btn__farm--invest">Try It</a>
+            <a href="/" class="btn btn__farm--invest">Try It</a>
 
         </section>
 
@@ -351,9 +354,9 @@
                 <div class="footer__contact">
                     <h5 class="footer__contact__title">Reach Us</h5>
                     <span>Write email to us</span>
-                    <a href="mailto:info@fdZhilla.com" class="email">info@magician.com</a>
-                    <a href="#" class="btn btn__signin">
-                        <i class="far fa-user"></i> Sign In
+                    <a href="mailto:diwakarkumarsah77@gmail.com" class="email">info@magician.com</a>
+                    <a href="mailto:diwakarkumarsah77@gmail.com" class="btn btn__signin">
+                        <i class="far fa-user"></i> Contact
                     </a>
                 </div>
             </div>
@@ -372,5 +375,4 @@
     {# <script src="templates/test.js"></script>  #}
     <script src="{{ url_for('static', filename='public/test.js') }}"></script>
 </body>
-
 </html>
